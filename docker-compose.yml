@@ -4,13 +4,14 @@ services:
     container_name: dnsdist
     build: ./build/dnsdist/
     restart: unless-stopped
+    privileged: true
     depends_on:
       - pdns
       - recursor
-#    ports:
-#      - "53:53/udp"
-#      - "53:53"
-#      - "8080"
+    ports:
+      - "53:53/udp"
+      - "53:53"
+      - "8080"
     expose:
       - "53"
       - "8080"
