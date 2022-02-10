@@ -1,0 +1,69 @@
+version: "3"
+services:
+  dnsdist:
+    container_name: dnsdist
+    build: ./build/dnsdist/
+    restart: unless-stopped
+    depends_on:
+      - pdns
+      - recursor
+#    ports:
+#      - "53:53/udp"
+#      - "53:53"
+#      - "8080"
+    expose:
+      - "53"
+      - "8080"
+    volumes:
+      - ./config/dnsdist.conf:/etc/dnsdist/dnsdist.conf
+    networks:
+      dnsnet:
+        ipv4_address: 172.18.12.2
+  pdns:
+    container_name: pdns
+    build: ./build/pdns/
+    restart: unless-stopped
+    depends_on:
+      - geoipupdate
+    expose:
+      - "53"
+    volumes:
+      - ./data/geoipdb:/var/lib/GeoIP
+      - ./config/pdns.conf:/etc/powerdns/pdns.conf
+      - ./config/pdns.service:/lib/systemd/system/pdns.service
+      - ./config/geoip.conf:/etc/powerdns/pdns.d/geoip.conf
+      - ./config/zones.yml:/etc/powerdns/zones.yml
+    networks:
+      dnsnet:
+        ipv4_address: 172.18.12.3
+
+  recursor:
+    container_name: recursor
+    build: ./build/recursor/
+    restart: unless-stopped
+    expose:
+      - "53"
+    volumes:
+      - ./config/recursor.conf:/etc/powerdns/recursor.conf
+      - ./config/pdns-recursor.service:/lib/systemd/system/pdns-recursor.service
+      - ./config/root.hints:/etc/powerdns/root.hints
+    networks:
+      dnsnet:
+        ipv4_address: 172.18.12.4
+
+  geoipupdate:
+    container_name: geoipupdate
+    build: ./build/geoipupdate/
+    volumes:
+      - ./data/geoipdb:/var/lib/GeoIP
+      - /etc/GeoIP.conf:/etc/GeoIP.conf
+    restart: unless-stopped
+
+
+
+networks:
+  dnsnet:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.18.12.0/24
