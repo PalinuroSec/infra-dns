@@ -10,4 +10,4 @@ RUN apt-get update;apt-get -y dist-upgrade; rm -rf /var/lib/apt/lists/*
 RUN apt-get update;apt-get -y install dnsdist ca-certificates ssl-cert; \
 	rm -rf /var/lib/apt/lists/*
 
-CMD /usr/bin/dnsdist --supervised --disable-syslog
+CMD /usr/bin/dnsdist -v -u _dnsdist -g _dnsdist --supervised --disable-syslog
