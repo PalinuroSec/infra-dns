@@ -4,21 +4,15 @@ services:
     container_name: dnsdist
     build: ./build/dnsdist/
     restart: unless-stopped
+    network_mode: host
     depends_on:
       - pdns
       - recursor
-    ports:
-      - "53:53/udp"
-      - "53:53"
-      - "8080"
-    expose:
-      - "53"
-      - "8080"
     volumes:
       - ./config/dnsdist.conf:/etc/dnsdist/dnsdist.conf
-    networks:
-      dnsnet:
-        ipv4_address: 172.18.12.2
+#    networks:
+#      dnsnet:
+#        ipv4_address: 172.18.12.2
   pdns:
     container_name: pdns
     build: ./build/pdns/
