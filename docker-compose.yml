@@ -4,7 +4,6 @@ services:
     container_name: dnsdist
     build: ./build/dnsdist/
     restart: unless-stopped
-    privileged: true
     depends_on:
       - pdns
       - recursor
