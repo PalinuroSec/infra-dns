@@ -10,5 +10,7 @@ RUN apt-get update;apt-get -y dist-upgrade; rm -rf /var/lib/apt/lists/*
 RUN apt-get update;apt-get -y install dnsdist ca-certificates ssl-cert; \
 	rm -rf /var/lib/apt/lists/*
 
+COPY ./start.sh /start.sh
+
 STOPSIGNAL SIGTERM
 CMD /start.sh
