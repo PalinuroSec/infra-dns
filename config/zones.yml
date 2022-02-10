@@ -1,292 +1,201 @@
 domains:
-- domain: rfc2549.network
+- domain: geo.rfc2549.network
   ttl: 10
   records:
-    rfc2549.network:
-      - soa: ns1.rfc2549.network ns.rfc2549.network 2014090125 7200 3600 1209600 3600
-      - soa: ns2.rfc2549.network ns.rfc2549.network 2014090125 7200 3600 1209600 3600
-      - soa: ns3.rfc2549.network ns.rfc2549.network 2014090125 7200 3600 1209600 3600
-      - soa: ns4.rfc2549.network ns.rfc2549.network 2014090125 7200 3600 1209600 3600
-      - ns: ns1.rfc2549.network
-      - ns: ns2.rfc2549.network
-      - ns: ns3.rfc2549.network
-      - ns: ns4.rfc2549.network
+    geo.rfc2549.network:
+      - soa: ns1.geo.rfc2549.network ns.geo.rfc2549.network 2014090125 7200 3600 1209600 3600
+      - soa: ns2.geo.rfc2549.network ns.geo.rfc2549.network 2014090125 7200 3600 1209600 3600
+      - ns: ns1.geo.rfc2549.network
+      - ns: ns2.geo.rfc2549.network
       - a: 185.187.152.2
       - a: 185.187.153.2
       - aaaa: 2a05:b0c4:1::c
       - aaaa: 2a05:b0c4:1::d
-    ns1.rfc2549.network:
+    ns1.geo.rfc2549.network:
       - a: 185.187.152.2
       - aaaa: 2a05:b0c4:1::c
-    ns2.rfc2549.network:
+    ns2.geo.rfc2549.network:
       - a: 185.187.153.2
       - aaaa: 2a05:b0c4:1::d
-    ns3.rfc2549.network:
-      - a: 185.187.152.2
-      - aaaa: 2a05:b0c4:1::c
-    ns4.rfc2549.network:
-      - a: 185.187.153.2
-      - aaaa: 2a05:b0c4:1::d
-    debug.rfc2549.network:
+    
+    debug.geo.rfc2549.network:
       - txt: "ip %ip %af city %ci country %cc %co state %cn region %re name %na as %as"
+    info.geo.rfc2549.network:
+      - txt: "ip %ip %af city %ci country %cc %co state %cn region %re name %na as %as"
+    anycast.geo.rfc2549.network:
+      - a: 185.187.152.2
+      - a: 185.187.153.2
+      - aaaa: 2a05:b0c4:1::c
+      - aaaa: 2a05:b0c4:1::d
+
+
 
 #NCSA
-    ncsa.rfc2549.network:
-      # montreal
-      - a: 51.161.118.148
-      - aaaa: 2607:5300:0203:7094:dddd:feed:dead:beef
-    us-west.ncsa.rfc2549.network:
-      # montreal
-      - a: 51.161.118.148
-      - aaaa: 2607:5300:0203:7094:dddd:feed:dead:beef
-    us-east.ncsa.rfc2549.network:
-      # montreal
-      - a: 51.161.118.148
-      - aaaa: 2607:5300:0203:7094:dddd:feed:dead:beef
-    latam.ncsa.rfc2549.network:
-      # montreal
-      - a: 51.161.118.148
-      - aaaa: 2607:5300:0203:7094:dddd:feed:dead:beef
+    ncsa.geo.rfc2549.network:
+      # strasbourg
+      - a: 51.91.152.156
+      - aaaa: 2001:41d0:0403:2f9c:cccc:feed:dead:beef
+    us-west.ncsa.geo.rfc2549.network:
+      # strasbourg
+      - a: 51.91.152.156
+      - aaaa: 2001:41d0:0403:2f9c:cccc:feed:dead:beef
+    us-east.ncsa.geo.rfc2549.network:
+      # strasbourg
+      - a: 51.91.152.156
+      - aaaa: 2001:41d0:0403:2f9c:cccc:feed:dead:beef
+    latam.ncsa.geo.rfc2549.network:
+      # strasbourg
+      - a: 51.91.152.156
+      - aaaa: 2001:41d0:0403:2f9c:cccc:feed:dead:beef
 
 #EMEA
-    emea.rfc2549.network:
-      # warsaw
-      - a: 51.83.238.32
-      - aaaa: 2001:41d0:602:3520:bbbb:feed:dead:beef
-      # gravelines
-      - a: 51.178.92.105
-      - aaaa: 2001:41d0:0303:d269:aaaa:feed:dead:beef
+    emea.geo.rfc2549.network:
       # strasbourg
       - a: 51.91.152.156
       - aaaa: 2001:41d0:0403:2f9c:cccc:feed:dead:beef
-    euro.emea.rfc2549.network:
-      # warsaw
-      - a: 51.83.238.32
-      - aaaa: 2001:41d0:602:3520:bbbb:feed:dead:beef
-      # gravelines
-      - a: 51.178.92.105
-      - aaaa: 2001:41d0:0303:d269:aaaa:feed:dead:beef
+    euro.emea.geo.rfc2549.network:
       # strasbourg
       - a: 51.91.152.156
       - aaaa: 2001:41d0:0403:2f9c:cccc:feed:dead:beef
-    africa.emea.rfc2549.network:
-      # warsaw
-      - a: 51.83.238.32
-      - aaaa: 2001:41d0:602:3520:bbbb:feed:dead:beef
-      # gravelines
-      - a: 51.178.92.105
-      - aaaa: 2001:41d0:0303:d269:aaaa:feed:dead:beef
+    africa.emea.geo.rfc2549.network:
       # strasbourg
       - a: 51.91.152.156
       - aaaa: 2001:41d0:0403:2f9c:cccc:feed:dead:beef
-    meast.emea.rfc2549.network:
-      # warsaw
-      - a: 51.83.238.32
-      - aaaa: 2001:41d0:602:3520:bbbb:feed:dead:beef
-      # gravelines
-      - a: 51.178.92.105
-      - aaaa: 2001:41d0:0303:d269:aaaa:feed:dead:beef
+    meast.emea.geo.rfc2549.network:
       # strasbourg
       - a: 51.91.152.156
       - aaaa: 2001:41d0:0403:2f9c:cccc:feed:dead:beef
 
 #APAC
-    apac.rfc2549.network:
-      # singapore
-      - a: 139.99.69.216
-      - aaaa: 2402:1f00:8001:08d8:eeee:feed:dead:beef
-      # singapore2
-      - a: 51.79.178.45
-      - aaaa: 2402:1f00:8001:d2d:ffff:feed:dead:beef
-    west-asia.apac.rfc2549.network:
-      # warsaw
-      - a: 51.83.238.32
-      - aaaa: 2001:41d0:602:3520:bbbb:feed:dead:beef
-      # gravelines
-      - a: 51.178.92.105
-      - aaaa: 2001:41d0:0303:d269:aaaa:feed:dead:beef
+    apac.geo.rfc2549.network:
       # strasbourg
       - a: 51.91.152.156
       - aaaa: 2001:41d0:0403:2f9c:cccc:feed:dead:beef
-    east-asia.apac.rfc2549.network:
-      # singapore
-      - a: 139.99.69.216
-      - aaaa: 2402:1f00:8001:08d8:eeee:feed:dead:beef
-      # singapore2
-      - a: 51.79.178.45
-      - aaaa: 2402:1f00:8001:d2d:ffff:feed:dead:beef
-    south-asia.apac.rfc2549.network:
-      # warsaw
-      - a: 51.83.238.32
-      - aaaa: 2001:41d0:602:3520:bbbb:feed:dead:beef
-      # gravelines
-      - a: 51.178.92.105
-      - aaaa: 2001:41d0:0303:d269:aaaa:feed:dead:beef
+    west-asia.apac.geo.rfc2549.network:
       # strasbourg
       - a: 51.91.152.156
       - aaaa: 2001:41d0:0403:2f9c:cccc:feed:dead:beef
-      # singapore
-      - a: 139.99.69.216
-      - aaaa: 2402:1f00:8001:08d8:eeee:feed:dead:beef
-      # singapore2
-      - a: 51.79.178.45
-      - aaaa: 2402:1f00:8001:d2d:ffff:feed:dead:beef
-    west-oceania.apac.rfc2549.network:
-      # singapore
-      - a: 139.99.69.216
-      - aaaa: 2402:1f00:8001:08d8:eeee:feed:dead:beef
-      # singapore2
-      - a: 51.79.178.45
-      - aaaa: 2402:1f00:8001:d2d:ffff:feed:dead:beef
-    south-oceania.apac.rfc2549.network:
-      # singapore
-      - a: 139.99.69.216
-      - aaaa: 2402:1f00:8001:08d8:eeee:feed:dead:beef
-      # singapore2
-      - a: 51.79.178.45
-      - aaaa: 2402:1f00:8001:d2d:ffff:feed:dead:beef
-    north-oceania.apac.rfc2549.network:
-      # singapore
-      - a: 139.99.69.216
-      - aaaa: 2402:1f00:8001:08d8:eeee:feed:dead:beef
-      # singapore2
-      - a: 51.79.178.45
-      - aaaa: 2402:1f00:8001:d2d:ffff:feed:dead:beef
+    east-asia.apac.geo.rfc2549.network:
+      # strasbourg
+      - a: 51.91.152.156
+      - aaaa: 2001:41d0:0403:2f9c:cccc:feed:dead:beef
+    south-asia.apac.geo.rfc2549.network:
+      # strasbourg
+      - a: 51.91.152.156
+      - aaaa: 2001:41d0:0403:2f9c:cccc:feed:dead:beef
+    west-oceania.apac.geo.rfc2549.network:
+      # strasbourg
+      - a: 51.91.152.156
+      - aaaa: 2001:41d0:0403:2f9c:cccc:feed:dead:beef
+    south-oceania.apac.geo.rfc2549.network:
+      # strasbourg
+      - a: 51.91.152.156
+      - aaaa: 2001:41d0:0403:2f9c:cccc:feed:dead:beef
+    north-oceania.apac.geo.rfc2549.network:
+      # strasbourg
+      - a: 51.91.152.156
+      - aaaa: 2001:41d0:0403:2f9c:cccc:feed:dead:beef
 
 
 # geo continents
     #north america
-    na.geo.rfc2549.network:
-      - txt: "ip %ip %af city %ci country %cc %co state %cn region %re name %na as %as"
-      - cname: east.ncsa.rfc2549.network
-      - cname: west.ncsa.rfc2549.network
+    na.geo.geo.rfc2549.network:
+      - cname: east.ncsa.geo.rfc2549.network
+      - cname: west.ncsa.geo.rfc2549.network
 
     #south america
-    sa.geo.rfc2549.network:
-      - txt: "ip %ip %af city %ci country %cc %co state %cn region %re name %na as %as"
-      - cname: latam.ncsa.rfc2549.network
+    sa.geo.geo.rfc2549.network:
+      - cname: latam.ncsa.geo.rfc2549.network
 
     #europe
-    eu.geo.rfc2549.network:
-      - txt: "ip %ip %af city %ci country %cc %co state %cn region %re name %na as %as"
-      - cname: euro.emea.rfc2549.network
+    eu.geo.geo.rfc2549.network:
+      - cname: euro.emea.geo.rfc2549.network
 
     #asia
-    as.geo.rfc2549.network:
-      - txt: "ip %ip %af city %ci country %cc %co state %cn region %re name %na as %as"
-      - cname: west-asia.apac.rfc2549.network
+    as.geo.geo.rfc2549.network:
+      - cname: west-asia.apac.geo.rfc2549.network
 
     #oceania
-    oc.geo.rfc2549.network:
-      - txt: "ip %ip %af city %ci country %cc %co state %cn region %re name %na as %as"
-      - cname: west-oceania.apac.rfc2549.network
+    oc.geo.geo.rfc2549.network:
+      - cname: west-oceania.apac.geo.rfc2549.network
 
     #africa
-    af.geo.rfc2549.network:
-      - txt: "ip %ip %af city %ci country %cc %co state %cn region %re name %na as %as"
-      - cname: africa.emea.rfc2549.network
+    af.geo.geo.rfc2549.network:
+      - cname: africa.emea.geo.rfc2549.network
 
     #antartica
-    an.geo.rfc2549.network:
-      - txt: "ip %ip %af city %ci country %cc %co state %cn region %re name %na as %as"
-      - cname: emea.rfc2549.network
+    an.geo.geo.rfc2549.network:
+      - cname: emea.geo.rfc2549.network
 
 # asian optimizations
-    sg.as.geo.rfc2549.network:
-      - txt: "ip %ip %af city %ci country %cc %co state %cn region %re name %na as %as"
-      - cname: west-oceania.apac.rfc2549.network
-    in.as.geo.rfc2549.network:
-      - txt: "ip %ip %af city %ci country %cc %co state %cn region %re name %na as %as"
-      - cname: south-asia.apac.rfc2549.network
-    lk.as.geo.rfc2549.network:
-      - txt: "ip %ip %af city %ci country %cc %co state %cn region %re name %na as %as"
-      - cname: south-asia.apac.rfc2549.network
-    np.as.geo.rfc2549.network:
-      - txt: "ip %ip %af city %ci country %cc %co state %cn region %re name %na as %as"
-      - cname: south-asia.apac.rfc2549.network
-    bd.as.geo.rfc2549.network:
-      - txt: "ip %ip %af city %ci country %cc %co state %cn region %re name %na as %as"
-      - cname: south-asia.apac.rfc2549.network
-    pk.as.geo.rfc2549.network:
-      - txt: "ip %ip %af city %ci country %cc %co state %cn region %re name %na as %as"
-      - cname: south-asia.apac.rfc2549.network
-    bt.as.geo.rfc2549.network:
-      - txt: "ip %ip %af city %ci country %cc %co state %cn region %re name %na as %as"
-      - cname: east-asia.apac.rfc2549.network
-    mm.as.geo.rfc2549.network:
-      - txt: "ip %ip %af city %ci country %cc %co state %cn region %re name %na as %as"
-      - cname: east-asia.apac.rfc2549.network
-    mn.as.geo.rfc2549.network:
-      - txt: "ip %ip %af city %ci country %cc %co state %cn region %re name %na as %as"
-      - cname: east-asia.apac.rfc2549.network
-    th.as.geo.rfc2549.network:
-      - txt: "ip %ip %af city %ci country %cc %co state %cn region %re name %na as %as"
-      - cname: east.apac.rfc2549.network
-    la.as.geo.rfc2549.network:
-      - txt: "ip %ip %af city %ci country %cc %co state %cn region %re name %na as %as"
-      - cname: east-asia.apac.rfc2549.network
-    kh.as.geo.rfc2549.network:
-      - txt: "ip %ip %af city %ci country %cc %co state %cn region %re name %na as %as"
-      - cname: east-asia.apac.rfc2549.network
-    vn.as.geo.rfc2549.network:
-      - txt: "ip %ip %af city %ci country %cc %co state %cn region %re name %na as %as"
-      - cname: east-asia.apac.rfc2549.network
-    my.as.geo.rfc2549.network:
-      - txt: "ip %ip %af city %ci country %cc %co state %cn region %re name %na as %as"
-      - cname: east-asia.apac.rfc2549.network
+    sg.as.geo.geo.rfc2549.network:
+      - cname: west-oceania.apac.geo.rfc2549.network
+    in.as.geo.geo.rfc2549.network:
+      - cname: south-asia.apac.geo.rfc2549.network
+    lk.as.geo.geo.rfc2549.network:
+      - cname: south-asia.apac.geo.rfc2549.network
+    np.as.geo.geo.rfc2549.network:
+      - cname: south-asia.apac.geo.rfc2549.network
+    bd.as.geo.geo.rfc2549.network:
+      - cname: south-asia.apac.geo.rfc2549.network
+    pk.as.geo.geo.rfc2549.network:
+      - cname: south-asia.apac.geo.rfc2549.network
+    bt.as.geo.geo.rfc2549.network:
+      - cname: east-asia.apac.geo.rfc2549.network
+    mm.as.geo.geo.rfc2549.network:
+      - cname: east-asia.apac.geo.rfc2549.network
+    mn.as.geo.geo.rfc2549.network:
+      - cname: east-asia.apac.geo.rfc2549.network
+    th.as.geo.geo.rfc2549.network:
+      - cname: east.apac.geo.rfc2549.network
+    la.as.geo.geo.rfc2549.network:
+      - cname: east-asia.apac.geo.rfc2549.network
+    kh.as.geo.geo.rfc2549.network:
+      - cname: east-asia.apac.geo.rfc2549.network
+    vn.as.geo.geo.rfc2549.network:
+      - cname: east-asia.apac.geo.rfc2549.network
+    my.as.geo.geo.rfc2549.network:
+      - cname: east-asia.apac.geo.rfc2549.network
 
 # oceanic optimizations
-    au.oc.geo.rfc2549.network:
-      - txt: "ip %ip %af city %ci country %cc %co state %cn region %re name %na as %as"
-      - cname: south-oceania.apac.rfc2549.network
-    nz.oc.geo.rfc2549.network:
-      - txt: "ip %ip %af city %ci country %cc %co state %cn region %re name %na as %as"
-      - cname: south-oceania.apac.rfc2549.network
-    nc.oc.geo.rfc2549.network:
-      - txt: "ip %ip %af city %ci country %cc %co state %cn region %re name %na as %as"
-      - cname: south-oceania.apac.rfc2549.network
-    vu.oc.geo.rfc2549.network:
-      - txt: "ip %ip %af city %ci country %cc %co state %cn region %re name %na as %as"
-      - cname: south-oceania.apac.rfc2549.network
-    nu.oc.geo.rfc2549.network:
-      - txt: "ip %ip %af city %ci country %cc %co state %cn region %re name %na as %as"
-      - cname: south-oceania.apac.rfc2549.network
-    ws.oc.geo.rfc2549.network:
-      - txt: "ip %ip %af city %ci country %cc %co state %cn region %re name %na as %as"
-      - cname: south-oceania.apac.rfc2549.network
-    to.oc.geo.rfc2549.network:
-      - txt: "ip %ip %af city %ci country %cc %co state %cn region %re name %na as %as"
-      - cname: south-oceania.apac.rfc2549.network
-    nr.oc.geo.rfc2549.network:
-      - txt: "ip %ip %af city %ci country %cc %co state %cn region %re name %na as %as"
-      - cname: south-oceania.apac.rfc2549.network
-    pg.oc.geo.rfc2549.network:
-      - txt: "ip %ip %af city %ci country %cc %co state %cn region %re name %na as %as"
-      - cname: south-oceania.apac.rfc2549.network
-    fj.oc.geo.rfc2549.network:
-      - txt: "ip %ip %af city %ci country %cc %co state %cn region %re name %na as %as"
-      - cname: south-oceania.apac.rfc2549.network
-    ck.oc.geo.rfc2549.network:
-      - txt: "ip %ip %af city %ci country %cc %co state %cn region %re name %na as %as"
-      - cname: south-oceania.apac.rfc2549.network
-    pn.oc.geo.rfc2549.network:
-      - txt: "ip %ip %af city %ci country %cc %co state %cn region %re name %na as %as"
-      - cname: south-oceania.apac.rfc2549.network
-    mh.oc.geo.rfc2549.network:
-      - txt: "ip %ip %af city %ci country %cc %co state %cn region %re name %na as %as"
-      - cname: south-oceania.apac.rfc2549.network
-    tw.oc.geo.rfc2549.network:
-      - txt: "ip %ip %af city %ci country %cc %co state %cn region %re name %na as %as"
-      - cname: north-oceania.apac.rfc2549.network
-    kr.oc.geo.rfc2549.network:
-      - txt: "ip %ip %af city %ci country %cc %co state %cn region %re name %na as %as"
-      - cname: north-oceania.apac.rfc2549.network
-    kp.oc.geo.rfc2549.network:
-      - txt: "ip %ip %af city %ci country %cc %co state %cn region %re name %na as %as"
-      - cname: north-oceania.apac.rfc2549.network
+    au.oc.geo.geo.rfc2549.network:
+      - cname: south-oceania.apac.geo.rfc2549.network
+    nz.oc.geo.geo.rfc2549.network:
+      - cname: south-oceania.apac.geo.rfc2549.network
+    nc.oc.geo.geo.rfc2549.network:
+      - cname: south-oceania.apac.geo.rfc2549.network
+    vu.oc.geo.geo.rfc2549.network:
+      - cname: south-oceania.apac.geo.rfc2549.network
+    nu.oc.geo.geo.rfc2549.network:
+      - cname: south-oceania.apac.geo.rfc2549.network
+    ws.oc.geo.geo.rfc2549.network:
+      - cname: south-oceania.apac.geo.rfc2549.network
+    to.oc.geo.geo.rfc2549.network:
+      - cname: south-oceania.apac.geo.rfc2549.network
+    nr.oc.geo.geo.rfc2549.network:
+      - cname: south-oceania.apac.geo.rfc2549.network
+    pg.oc.geo.geo.rfc2549.network:
+      - cname: south-oceania.apac.geo.rfc2549.network
+    fj.oc.geo.geo.rfc2549.network:
+      - cname: south-oceania.apac.geo.rfc2549.network
+    ck.oc.geo.geo.rfc2549.network:
+      - cname: south-oceania.apac.geo.rfc2549.network
+    pn.oc.geo.geo.rfc2549.network:
+      - cname: south-oceania.apac.geo.rfc2549.network
+    mh.oc.geo.geo.rfc2549.network:
+      - cname: south-oceania.apac.geo.rfc2549.network
+    tw.oc.geo.geo.rfc2549.network:
+      - cname: north-oceania.apac.geo.rfc2549.network
+    kr.oc.geo.geo.rfc2549.network:
+      - cname: north-oceania.apac.geo.rfc2549.network
+    kp.oc.geo.geo.rfc2549.network:
+      - cname: north-oceania.apac.geo.rfc2549.network
 
 # services
   services:
-    geo.rfc2549.network:
-      default: ['%as.geo.rfc2549.network', '%re.%cc.%cn.geo.rfc2549.network', '%cc.%cn.geo.rfc2549.network', '%cn.geo.rfc2549.network', 'emea.rfc2549.network']
-
+    director.geo.rfc2549.network:
+      default: ['%as.geo.geo.rfc2549.network', '%re.%cc.%cn.geo.geo.rfc2549.network', '%cc.%cn.geo.geo.rfc2549.network', '%cn.geo.geo.rfc2549.network', 'emea.geo.rfc2549.network']
+    core.geo.rfc2549.network:
+      default: ['%as.geo.geo.rfc2549.network', '%re.%cc.%cn.geo.geo.rfc2549.network', '%cc.%cn.geo.geo.rfc2549.network', '%cn.geo.geo.rfc2549.network', 'emea.geo.rfc2549.network']
+    edge.geo.rfc2549.network:
+      default: ['%as.geo.geo.rfc2549.network', '%re.%cc.%cn.geo.geo.rfc2549.network', '%cc.%cn.geo.geo.rfc2549.network', '%cn.geo.geo.rfc2549.network', 'emea.geo.rfc2549.network']
