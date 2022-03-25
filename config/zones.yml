@@ -100,8 +100,8 @@ domains:
 # geo continents
     #north america
     na.geo.geo.rfc2549.network:
-      - cname: east.ncsa.geo.rfc2549.network
-      - cname: west.ncsa.geo.rfc2549.network
+      - cname: us-east.ncsa.geo.rfc2549.network
+      - cname: us-west.ncsa.geo.rfc2549.network
 
     #south america
     sa.geo.geo.rfc2549.network:
