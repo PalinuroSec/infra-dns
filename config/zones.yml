@@ -99,103 +99,103 @@ domains:
 
 # geo continents
     #north america
-    na.geo.geo.rfc2549.network:
+    na.geo.rfc2549.network:
       - cname: us-east.ncsa.geo.rfc2549.network
       - cname: us-west.ncsa.geo.rfc2549.network
 
     #south america
-    sa.geo.geo.rfc2549.network:
+    sa.geo.rfc2549.network:
       - cname: latam.ncsa.geo.rfc2549.network
 
     #europe
-    eu.geo.geo.rfc2549.network:
+    eu.geo.rfc2549.network:
       - cname: euro.emea.geo.rfc2549.network
 
     #asia
-    as.geo.geo.rfc2549.network:
+    as.geo.rfc2549.network:
       - cname: west-asia.apac.geo.rfc2549.network
 
     #oceania
-    oc.geo.geo.rfc2549.network:
+    oc.geo.rfc2549.network:
       - cname: west-oceania.apac.geo.rfc2549.network
 
     #africa
-    af.geo.geo.rfc2549.network:
+    af.geo.rfc2549.network:
       - cname: africa.emea.geo.rfc2549.network
 
     #antartica
-    an.geo.geo.rfc2549.network:
+    an.geo.rfc2549.network:
       - cname: emea.geo.rfc2549.network
 
 # asian optimizations
-    sg.as.geo.geo.rfc2549.network:
+    sg.as.geo.rfc2549.network:
       - cname: west-oceania.apac.geo.rfc2549.network
-    in.as.geo.geo.rfc2549.network:
+    in.as.geo.rfc2549.network:
       - cname: south-asia.apac.geo.rfc2549.network
-    lk.as.geo.geo.rfc2549.network:
+    lk.as.geo.rfc2549.network:
       - cname: south-asia.apac.geo.rfc2549.network
-    np.as.geo.geo.rfc2549.network:
+    np.as.geo.rfc2549.network:
       - cname: south-asia.apac.geo.rfc2549.network
-    bd.as.geo.geo.rfc2549.network:
+    bd.as.geo.rfc2549.network:
       - cname: south-asia.apac.geo.rfc2549.network
-    pk.as.geo.geo.rfc2549.network:
+    pk.as.geo.rfc2549.network:
       - cname: south-asia.apac.geo.rfc2549.network
-    bt.as.geo.geo.rfc2549.network:
+    bt.as.geo.rfc2549.network:
       - cname: east-asia.apac.geo.rfc2549.network
-    mm.as.geo.geo.rfc2549.network:
+    mm.as.geo.rfc2549.network:
       - cname: east-asia.apac.geo.rfc2549.network
-    mn.as.geo.geo.rfc2549.network:
+    mn.as.geo.rfc2549.network:
       - cname: east-asia.apac.geo.rfc2549.network
-    th.as.geo.geo.rfc2549.network:
+    th.as.geo.rfc2549.network:
       - cname: east.apac.geo.rfc2549.network
-    la.as.geo.geo.rfc2549.network:
+    la.as.geo.rfc2549.network:
       - cname: east-asia.apac.geo.rfc2549.network
-    kh.as.geo.geo.rfc2549.network:
+    kh.as.geo.rfc2549.network:
       - cname: east-asia.apac.geo.rfc2549.network
-    vn.as.geo.geo.rfc2549.network:
+    vn.as.geo.rfc2549.network:
       - cname: east-asia.apac.geo.rfc2549.network
-    my.as.geo.geo.rfc2549.network:
+    my.as.geo.rfc2549.network:
       - cname: east-asia.apac.geo.rfc2549.network
 
 # oceanic optimizations
-    au.oc.geo.geo.rfc2549.network:
+    au.oc.geo.rfc2549.network:
       - cname: south-oceania.apac.geo.rfc2549.network
-    nz.oc.geo.geo.rfc2549.network:
+    nz.oc.geo.rfc2549.network:
       - cname: south-oceania.apac.geo.rfc2549.network
-    nc.oc.geo.geo.rfc2549.network:
+    nc.oc.geo.rfc2549.network:
       - cname: south-oceania.apac.geo.rfc2549.network
-    vu.oc.geo.geo.rfc2549.network:
+    vu.oc.geo.rfc2549.network:
       - cname: south-oceania.apac.geo.rfc2549.network
-    nu.oc.geo.geo.rfc2549.network:
+    nu.oc.geo.rfc2549.network:
       - cname: south-oceania.apac.geo.rfc2549.network
-    ws.oc.geo.geo.rfc2549.network:
+    ws.oc.geo.rfc2549.network:
       - cname: south-oceania.apac.geo.rfc2549.network
-    to.oc.geo.geo.rfc2549.network:
+    to.oc.geo.rfc2549.network:
       - cname: south-oceania.apac.geo.rfc2549.network
-    nr.oc.geo.geo.rfc2549.network:
+    nr.oc.geo.rfc2549.network:
       - cname: south-oceania.apac.geo.rfc2549.network
-    pg.oc.geo.geo.rfc2549.network:
+    pg.oc.geo.rfc2549.network:
       - cname: south-oceania.apac.geo.rfc2549.network
-    fj.oc.geo.geo.rfc2549.network:
+    fj.oc.geo.rfc2549.network:
       - cname: south-oceania.apac.geo.rfc2549.network
-    ck.oc.geo.geo.rfc2549.network:
+    ck.oc.geo.rfc2549.network:
       - cname: south-oceania.apac.geo.rfc2549.network
-    pn.oc.geo.geo.rfc2549.network:
+    pn.oc.geo.rfc2549.network:
       - cname: south-oceania.apac.geo.rfc2549.network
-    mh.oc.geo.geo.rfc2549.network:
+    mh.oc.geo.rfc2549.network:
       - cname: south-oceania.apac.geo.rfc2549.network
-    tw.oc.geo.geo.rfc2549.network:
+    tw.oc.geo.rfc2549.network:
       - cname: north-oceania.apac.geo.rfc2549.network
-    kr.oc.geo.geo.rfc2549.network:
+    kr.oc.geo.rfc2549.network:
       - cname: north-oceania.apac.geo.rfc2549.network
-    kp.oc.geo.geo.rfc2549.network:
+    kp.oc.geo.rfc2549.network:
       - cname: north-oceania.apac.geo.rfc2549.network
 
 # services
   services:
     director.geo.rfc2549.network:
-      default: ['%as.geo.geo.rfc2549.network', '%re.%cc.%cn.geo.geo.rfc2549.network', '%cc.%cn.geo.geo.rfc2549.network', '%cn.geo.geo.rfc2549.network', 'emea.geo.rfc2549.network']
+      default: ['%as.geo.rfc2549.network', '%re.%cc.%cn.geo.rfc2549.network', '%cc.%cn.geo.rfc2549.network', '%cn.geo.rfc2549.network', 'emea.geo.rfc2549.network']
     core.geo.rfc2549.network:
-      default: ['%as.geo.geo.rfc2549.network', '%re.%cc.%cn.geo.geo.rfc2549.network', '%cc.%cn.geo.geo.rfc2549.network', '%cn.geo.geo.rfc2549.network', 'emea.geo.rfc2549.network']
+      default: ['%as.geo.rfc2549.network', '%re.%cc.%cn.geo.rfc2549.network', '%cc.%cn.geo.rfc2549.network', '%cn.geo.rfc2549.network', 'emea.geo.rfc2549.network']
     edge.geo.rfc2549.network:
-      default: ['%as.geo.geo.rfc2549.network', '%re.%cc.%cn.geo.geo.rfc2549.network', '%cc.%cn.geo.geo.rfc2549.network', '%cn.geo.geo.rfc2549.network', 'emea.geo.rfc2549.network']
+      default: ['%as.geo.rfc2549.network', '%re.%cc.%cn.geo.rfc2549.network', '%cc.%cn.geo.rfc2549.network', '%cn.geo.rfc2549.network', 'emea.geo.rfc2549.network']
