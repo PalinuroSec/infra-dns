@@ -1,7 +1,7 @@
-FROM docker.io/parrotsec/core:5.0
+FROM parrot.run/core:5.0
 MAINTAINER Lorenzo "Palinuro" Faletra (palinuro@linux.it)
 ENV DEBIAN_FRONTEND noninteractive
-ENV VERSION 1.0
+ENV VERSION 2
 
 # Update system
 RUN apt-get update && apt-get -y dist-upgrade; rm -rf /var/lib/apt/lists/*

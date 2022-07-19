@@ -29,173 +29,146 @@ domains:
       - aaaa: 2a05:b0c4:1::d
 
 
+#MORDOR
+    #north america
+    na.mordor.geo.rfc2549.network:
+      - cname: montreal.mordor.rfc2549.network
 
-#NCSA
-    ncsa.geo.rfc2549.network:
-      # strasbourg
-      - a: 51.91.152.156
-      - aaaa: 2001:41d0:0403:2f9c:cccc:feed:dead:beef
-    us-west.ncsa.geo.rfc2549.network:
-      # strasbourg
-      - a: 51.91.152.156
-      - aaaa: 2001:41d0:0403:2f9c:cccc:feed:dead:beef
-    us-east.ncsa.geo.rfc2549.network:
-      # strasbourg
-      - a: 51.91.152.156
-      - aaaa: 2001:41d0:0403:2f9c:cccc:feed:dead:beef
-    latam.ncsa.geo.rfc2549.network:
-      # strasbourg
-      - a: 51.91.152.156
-      - aaaa: 2001:41d0:0403:2f9c:cccc:feed:dead:beef
+    #south america
+    sa.mordor.geo.rfc2549.network:
+      - cname: montreal.mordor.rfc2549.network
+      - cname: frankfurt.mordor.rfc2549.network
 
-#EMEA
-    emea.geo.rfc2549.network:
-      # strasbourg
-      - a: 51.91.152.156
-      - aaaa: 2001:41d0:0403:2f9c:cccc:feed:dead:beef
-    euro.emea.geo.rfc2549.network:
-      # strasbourg
-      - a: 51.91.152.156
-      - aaaa: 2001:41d0:0403:2f9c:cccc:feed:dead:beef
-    africa.emea.geo.rfc2549.network:
-      # strasbourg
-      - a: 51.91.152.156
-      - aaaa: 2001:41d0:0403:2f9c:cccc:feed:dead:beef
-    meast.emea.geo.rfc2549.network:
-      # strasbourg
-      - a: 51.91.152.156
-      - aaaa: 2001:41d0:0403:2f9c:cccc:feed:dead:beef
+    #europe
+    eu.mordor.geo.rfc2549.network:
+      - cname: frankfurt.mordor.rfc2549.network
 
-#APAC
-    apac.geo.rfc2549.network:
-      # strasbourg
-      - a: 51.91.152.156
-      - aaaa: 2001:41d0:0403:2f9c:cccc:feed:dead:beef
-    west-asia.apac.geo.rfc2549.network:
-      # strasbourg
-      - a: 51.91.152.156
-      - aaaa: 2001:41d0:0403:2f9c:cccc:feed:dead:beef
-    east-asia.apac.geo.rfc2549.network:
-      # strasbourg
-      - a: 51.91.152.156
-      - aaaa: 2001:41d0:0403:2f9c:cccc:feed:dead:beef
-    south-asia.apac.geo.rfc2549.network:
-      # strasbourg
-      - a: 51.91.152.156
-      - aaaa: 2001:41d0:0403:2f9c:cccc:feed:dead:beef
-    west-oceania.apac.geo.rfc2549.network:
-      # strasbourg
-      - a: 51.91.152.156
-      - aaaa: 2001:41d0:0403:2f9c:cccc:feed:dead:beef
-    south-oceania.apac.geo.rfc2549.network:
-      # strasbourg
-      - a: 51.91.152.156
-      - aaaa: 2001:41d0:0403:2f9c:cccc:feed:dead:beef
-    north-oceania.apac.geo.rfc2549.network:
-      # strasbourg
-      - a: 51.91.152.156
-      - aaaa: 2001:41d0:0403:2f9c:cccc:feed:dead:beef
+    #asia
+    as.mordor.geo.rfc2549.network:
+      - cname: frankfurt.mordor.rfc2549.network
+      - cname: singapore.mordor.rfc2549.network
 
+    #oceania
+    oc.mordor.geo.rfc2549.network:
+      - cname: singapore.mordor.rfc2549.network
+
+    #africa
+    af.mordor.geo.rfc2549.network:
+      - cname: frankfurt.mordor.rfc2549.network
+
+    #antartica
+    an.mordor.geo.rfc2549.network:
+      - cname: frankfurt.mordor.rfc2549.network
+      - cname: montreal.mordor.rfc2549.network
+
+
+#GONDOR
+
+
+#ISENGARD
 
 # geo continents
     #north america
     na.geo.rfc2549.network:
-      - cname: us-east.ncsa.geo.rfc2549.network
-      - cname: us-west.ncsa.geo.rfc2549.network
+      - cname: montreal.isengard.rfc2549.network
+      - cname: newyork.isengard.rfc2549.network
+      - cname: sanfrancisco.isengard.rfc2549.network
 
     #south america
     sa.geo.rfc2549.network:
-      - cname: latam.ncsa.geo.rfc2549.network
+      - cname: montreal.isengard.rfc2549.network
+      - cname: newyork.isengard.rfc2549.network
+      - cname: sanfrancisco.isengard.rfc2549.network
 
     #europe
     eu.geo.rfc2549.network:
-      - cname: euro.emea.geo.rfc2549.network
+      - cname: frankfurt.isengard.rfc2549.network
 
     #asia
     as.geo.rfc2549.network:
-      - cname: west-asia.apac.geo.rfc2549.network
+      - cname: singapore.isengard.rfc2549.network
+      - cname: mumbai.isengard.rfc2549.network
 
     #oceania
     oc.geo.rfc2549.network:
-      - cname: west-oceania.apac.geo.rfc2549.network
+      - cname: singapore.isengard.rfc2549.network
+      - cname: sydney.isengard.rfc2549.network
 
     #africa
     af.geo.rfc2549.network:
-      - cname: africa.emea.geo.rfc2549.network
+      - cname: frankfurt.isengard.rfc2549.network
 
     #antartica
     an.geo.rfc2549.network:
-      - cname: emea.geo.rfc2549.network
+      - cname: frankfurt.isengard.rfc2549.network
 
 # asian optimizations
     sg.as.geo.rfc2549.network:
-      - cname: west-oceania.apac.geo.rfc2549.network
+      - cname: singapore.isengard.rfc2549.network
     in.as.geo.rfc2549.network:
-      - cname: south-asia.apac.geo.rfc2549.network
+      - cname: mumbai.isengard.rfc2549.network
     lk.as.geo.rfc2549.network:
-      - cname: south-asia.apac.geo.rfc2549.network
+      - cname: mumbai.isengard.rfc2549.network
     np.as.geo.rfc2549.network:
-      - cname: south-asia.apac.geo.rfc2549.network
+      - cname: mumbai.isengard.rfc2549.network
     bd.as.geo.rfc2549.network:
-      - cname: south-asia.apac.geo.rfc2549.network
+      - cname: mumbai.isengard.rfc2549.network
     pk.as.geo.rfc2549.network:
-      - cname: south-asia.apac.geo.rfc2549.network
+      - cname: mumbai.isengard.rfc2549.network
     bt.as.geo.rfc2549.network:
-      - cname: east-asia.apac.geo.rfc2549.network
+      - cname: singapore.isengard.rfc2549.network
     mm.as.geo.rfc2549.network:
-      - cname: east-asia.apac.geo.rfc2549.network
+      - cname: singapore.isengard.rfc2549.network
     mn.as.geo.rfc2549.network:
-      - cname: east-asia.apac.geo.rfc2549.network
+      - cname: singapore.isengard.rfc2549.network
     th.as.geo.rfc2549.network:
-      - cname: east.apac.geo.rfc2549.network
+      - cname: singapore.isengard.rfc2549.network
     la.as.geo.rfc2549.network:
-      - cname: east-asia.apac.geo.rfc2549.network
+      - cname: singapore.isengard.rfc2549.network
     kh.as.geo.rfc2549.network:
-      - cname: east-asia.apac.geo.rfc2549.network
+      - cname: singapore.isengard.rfc2549.network
     vn.as.geo.rfc2549.network:
-      - cname: east-asia.apac.geo.rfc2549.network
+      - cname: singapore.isengard.rfc2549.network
     my.as.geo.rfc2549.network:
-      - cname: east-asia.apac.geo.rfc2549.network
+      - cname: singapore.isengard.rfc2549.network
 
 # oceanic optimizations
     au.oc.geo.rfc2549.network:
-      - cname: south-oceania.apac.geo.rfc2549.network
+      - cname: sydney.isengard.rfc2549.network
     nz.oc.geo.rfc2549.network:
-      - cname: south-oceania.apac.geo.rfc2549.network
+      - cname: sydney.isengard.rfc2549.network
     nc.oc.geo.rfc2549.network:
-      - cname: south-oceania.apac.geo.rfc2549.network
+      - cname: sydney.isengard.rfc2549.network
     vu.oc.geo.rfc2549.network:
-      - cname: south-oceania.apac.geo.rfc2549.network
+      - cname: sydney.isengard.rfc2549.network
     nu.oc.geo.rfc2549.network:
-      - cname: south-oceania.apac.geo.rfc2549.network
+      - cname: sydney.isengard.rfc2549.network
     ws.oc.geo.rfc2549.network:
-      - cname: south-oceania.apac.geo.rfc2549.network
+      - cname: sydney.isengard.rfc2549.network
     to.oc.geo.rfc2549.network:
-      - cname: south-oceania.apac.geo.rfc2549.network
+      - cname: sydney.isengard.rfc2549.network
     nr.oc.geo.rfc2549.network:
-      - cname: south-oceania.apac.geo.rfc2549.network
+      - cname: sydney.isengard.rfc2549.network
     pg.oc.geo.rfc2549.network:
-      - cname: south-oceania.apac.geo.rfc2549.network
+      - cname: sydney.isengard.rfc2549.network
     fj.oc.geo.rfc2549.network:
-      - cname: south-oceania.apac.geo.rfc2549.network
+      - cname: sydney.isengard.rfc2549.network
     ck.oc.geo.rfc2549.network:
-      - cname: south-oceania.apac.geo.rfc2549.network
+      - cname: sydney.isengard.rfc2549.network
     pn.oc.geo.rfc2549.network:
-      - cname: south-oceania.apac.geo.rfc2549.network
+      - cname: sydney.isengard.rfc2549.network
     mh.oc.geo.rfc2549.network:
-      - cname: south-oceania.apac.geo.rfc2549.network
+      - cname: sydney.isengard.rfc2549.network
     tw.oc.geo.rfc2549.network:
-      - cname: north-oceania.apac.geo.rfc2549.network
+      - cname: singapore.isengard.rfc2549.network
     kr.oc.geo.rfc2549.network:
-      - cname: north-oceania.apac.geo.rfc2549.network
+      - cname: singapore.isengard.rfc2549.network
     kp.oc.geo.rfc2549.network:
-      - cname: north-oceania.apac.geo.rfc2549.network
+      - cname: singapore.isengard.rfc2549.network
 
 # services
   services:
-    director.geo.rfc2549.network:
-      default: ['%as.geo.rfc2549.network', '%re.%cc.%cn.geo.rfc2549.network', '%cc.%cn.geo.rfc2549.network', '%cn.geo.rfc2549.network', 'emea.geo.rfc2549.network']
-    core.geo.rfc2549.network:
-      default: ['%as.geo.rfc2549.network', '%re.%cc.%cn.geo.rfc2549.network', '%cc.%cn.geo.rfc2549.network', '%cn.geo.rfc2549.network', 'emea.geo.rfc2549.network']
-    edge.geo.rfc2549.network:
-      default: ['%as.geo.rfc2549.network', '%re.%cc.%cn.geo.rfc2549.network', '%cc.%cn.geo.rfc2549.network', '%cn.geo.rfc2549.network', 'emea.geo.rfc2549.network']
+    isengard.geo.rfc2549.network:
+      default: ['%as.geo.rfc2549.network', '%re.%cc.%cn.geo.rfc2549.network', '%cc.%cn.geo.rfc2549.network', '%cn.geo.rfc2549.network', 'eu.isengard.rfc2549.network']
+    mordor.geo.rfc2549.network:
+      default: ['%as.mordor.geo.rfc2549.network', '%re.%cc.%cn.mordor.geo.rfc2549.network', '%cc.%cn.mordor.geo.rfc2549.network', '%cn.mordor.geo.rfc2549.network', 'eu.mordor.geo.rfc2549.network']
