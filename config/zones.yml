@@ -32,34 +32,79 @@ domains:
 #MORDOR
     #north america
     na.mordor.geo.rfc2549.network:
-      - cname: montreal.mordor.rfc2549.network
+      # montreal
+      - a: 15.235.82.144
+      - a: 192.95.37.236
+      - aaaa: 2607:5300:203:a890:bbbb:cafe:dead:beef
+      - aaaa: 2607:5300:203:a890:bbbb:feed:dead:beef
 
     #south america
     sa.mordor.geo.rfc2549.network:
-      - cname: montreal.mordor.rfc2549.network
-      - cname: frankfurt.mordor.rfc2549.network
+      # montreal
+      - a: 15.235.82.144
+      - a: 192.95.37.236
+      - aaaa: 2607:5300:203:a890:bbbb:cafe:dead:beef
+      - aaaa: 2607:5300:203:a890:bbbb:feed:dead:beef
+      # frankfurt
+      - a: 141.95.31.133
+      - a: 51.89.14.47
+      - a: 162.19.139.93
+      - aaaa: 2001:41d0:700:6b5d:aaaa:feed:dead:beef
+      - aaaa: 2001:41d0:700:6b5d:aaaa:cafe:dead:beef
 
     #europe
     eu.mordor.geo.rfc2549.network:
-      - cname: frankfurt.mordor.rfc2549.network
+      # frankfurt
+      - a: 141.95.31.133
+      - a: 51.89.14.47
+      - a: 162.19.139.93
+      - aaaa: 2001:41d0:700:6b5d:aaaa:feed:dead:beef
+      - aaaa: 2001:41d0:700:6b5d:aaaa:cafe:dead:beef
 
     #asia
     as.mordor.geo.rfc2549.network:
-      - cname: frankfurt.mordor.rfc2549.network
-      - cname: singapore.mordor.rfc2549.network
+      # frankfurt
+      - a: 141.95.31.133
+      - a: 51.89.14.47
+      - a: 162.19.139.93
+      - aaaa: 2001:41d0:700:6b5d:aaaa:feed:dead:beef
+      - aaaa: 2001:41d0:700:6b5d:aaaa:cafe:dead:beef
+      # singapore
+      - a: 15.235.144.61
+      - a: 139.99.30.177
+      - aaaa: 2402:1f00:8001:133d:cccc:cafe:dead:beef
+      - aaaa: 2402:1f00:8001:133d:cccc:feed:dead:beef
 
     #oceania
     oc.mordor.geo.rfc2549.network:
-      - cname: singapore.mordor.rfc2549.network
+      # singapore
+      - a: 15.235.144.61
+      - a: 139.99.30.177
+      - aaaa: 2402:1f00:8001:133d:cccc:cafe:dead:beef
+      - aaaa: 2402:1f00:8001:133d:cccc:feed:dead:beef
 
     #africa
     af.mordor.geo.rfc2549.network:
-      - cname: frankfurt.mordor.rfc2549.network
+      # frankfurt
+      - a: 141.95.31.133
+      - a: 51.89.14.47
+      - a: 162.19.139.93
+      - aaaa: 2001:41d0:700:6b5d:aaaa:feed:dead:beef
+      - aaaa: 2001:41d0:700:6b5d:aaaa:cafe:dead:beef
 
     #antartica
     an.mordor.geo.rfc2549.network:
-      - cname: frankfurt.mordor.rfc2549.network
-      - cname: montreal.mordor.rfc2549.network
+      # montreal
+      - a: 15.235.82.144
+      - a: 192.95.37.236
+      - aaaa: 2607:5300:203:a890:bbbb:cafe:dead:beef
+      - aaaa: 2607:5300:203:a890:bbbb:feed:dead:beef
+      # frankfurt
+      - a: 141.95.31.133
+      - a: 51.89.14.47
+      - a: 162.19.139.93
+      - aaaa: 2001:41d0:700:6b5d:aaaa:feed:dead:beef
+      - aaaa: 2001:41d0:700:6b5d:aaaa:cafe:dead:beef
 
 
 #GONDOR
@@ -70,101 +115,276 @@ domains:
 # geo continents
     #north america
     na.geo.rfc2549.network:
-      - cname: montreal.isengard.rfc2549.network
-      - cname: newyork.isengard.rfc2549.network
-      - cname: sanfrancisco.isengard.rfc2549.network
+      # montreal
+      - a: 15.235.82.144
+      - a: 192.95.37.236
+      - aaaa: 2607:5300:203:a890:bbbb:cafe:dead:beef
+      - aaaa: 2607:5300:203:a890:bbbb:feed:dead:beef
+      # newyork
+      - a: 162.216.17.80
+      - aaaa: 2600:3c03::f03c:93ff:fe0a:66ad
+      # sanfrancisco
+      - a: 45.56.90.100
+      - aaaa: 2600:3c01::f03c:93ff:fe0a:af57
 
     #south america
     sa.geo.rfc2549.network:
-      - cname: montreal.isengard.rfc2549.network
-      - cname: newyork.isengard.rfc2549.network
-      - cname: sanfrancisco.isengard.rfc2549.network
+      # montreal
+      - a: 15.235.82.144
+      - a: 192.95.37.236
+      - aaaa: 2607:5300:203:a890:bbbb:cafe:dead:beef
+      - aaaa: 2607:5300:203:a890:bbbb:feed:dead:beef
+      # newyork
+      - a: 162.216.17.80
+      - aaaa: 2600:3c03::f03c:93ff:fe0a:66ad
+      # sanfrancisco
+      - a: 45.56.90.100
+      - aaaa: 2600:3c01::f03c:93ff:fe0a:af57
 
     #europe
     eu.geo.rfc2549.network:
-      - cname: frankfurt.isengard.rfc2549.network
+      # frankfurt
+      - a: 162.19.139.93
+      - a: 172.104.132.232
+      - a: 141.95.31.133
+      - a: 139.162.153.37
+      - a: 51.89.14.47
+      - aaaa: 2a01:7e01::f03c:93ff:fe0a:666b
+      - aaaa: 2a01:7e01::f03c:93ff:fe0a:663c
+      - aaaa: 2001:41d0:700:6b5d:aaaa:cafe:dead:beef
+      - aaaa: 2001:41d0:700:6b5d:aaaa:feed:dead:beef
 
     #asia
     as.geo.rfc2549.network:
-      - cname: singapore.isengard.rfc2549.network
-      - cname: mumbai.isengard.rfc2549.network
+      # mumbai
+      - a: 172.105.252.174
+      - aaaa: 2400:8904::f03c:93ff:fe0a:af02
+      # singapore
+      - a: 15.235.144.61
+      - a: 192.46.230.37
+      - a: 139.99.30.177
+      - aaaa: 2400:8901::f03c:93ff:fe0a:af0d
+      - aaaa: 2402:1f00:8001:133d:cccc:cafe:dead:beef
+      - aaaa: 2402:1f00:8001:133d:cccc:feed:dead:beef
 
     #oceania
     oc.geo.rfc2549.network:
-      - cname: singapore.isengard.rfc2549.network
-      - cname: sydney.isengard.rfc2549.network
+      # singapore
+      - a: 15.235.144.61
+      - a: 192.46.230.37
+      - a: 139.99.30.177
+      - aaaa: 2400:8901::f03c:93ff:fe0a:af0d
+      - aaaa: 2402:1f00:8001:133d:cccc:cafe:dead:beef
+      - aaaa: 2402:1f00:8001:133d:cccc:feed:dead:beef
+      # sydney
+      - a: 194.195.123.64
+      - aaaa: 2400:8907::f03c:93ff:fe0a:af65
 
     #africa
     af.geo.rfc2549.network:
-      - cname: frankfurt.isengard.rfc2549.network
+      # frankfurt
+      - a: 162.19.139.93
+      - a: 172.104.132.232
+      - a: 141.95.31.133
+      - a: 139.162.153.37
+      - a: 51.89.14.47
+      - aaaa: 2a01:7e01::f03c:93ff:fe0a:666b
+      - aaaa: 2a01:7e01::f03c:93ff:fe0a:663c
+      - aaaa: 2001:41d0:700:6b5d:aaaa:cafe:dead:beef
+      - aaaa: 2001:41d0:700:6b5d:aaaa:feed:dead:beef
 
     #antartica
     an.geo.rfc2549.network:
-      - cname: frankfurt.isengard.rfc2549.network
+      # frankfurt
+      - a: 162.19.139.93
+      - a: 172.104.132.232
+      - a: 141.95.31.133
+      - a: 139.162.153.37
+      - a: 51.89.14.47
+      - aaaa: 2a01:7e01::f03c:93ff:fe0a:666b
+      - aaaa: 2a01:7e01::f03c:93ff:fe0a:663c
+      - aaaa: 2001:41d0:700:6b5d:aaaa:cafe:dead:beef
+      - aaaa: 2001:41d0:700:6b5d:aaaa:feed:dead:beef
+      # montreal
+      - a: 15.235.82.144
+      - a: 192.95.37.236
+      - aaaa: 2607:5300:203:a890:bbbb:cafe:dead:beef
+      - aaaa: 2607:5300:203:a890:bbbb:feed:dead:beef
+      # newyork
+      - a: 162.216.17.80
+      - aaaa: 2600:3c03::f03c:93ff:fe0a:66ad
 
 # asian optimizations
     sg.as.geo.rfc2549.network:
-      - cname: singapore.isengard.rfc2549.network
+      # singapore
+      - a: 15.235.144.61
+      - a: 192.46.230.37
+      - a: 139.99.30.177
+      - aaaa: 2400:8901::f03c:93ff:fe0a:af0d
+      - aaaa: 2402:1f00:8001:133d:cccc:cafe:dead:beef
+      - aaaa: 2402:1f00:8001:133d:cccc:feed:dead:beef
     in.as.geo.rfc2549.network:
-      - cname: mumbai.isengard.rfc2549.network
+      # mumbai
+      - a: 172.105.252.174
+      - aaaa: 2400:8904::f03c:93ff:fe0a:af02
     lk.as.geo.rfc2549.network:
-      - cname: mumbai.isengard.rfc2549.network
+      # mumbai
+      - a: 172.105.252.174
+      - aaaa: 2400:8904::f03c:93ff:fe0a:af02
     np.as.geo.rfc2549.network:
-      - cname: mumbai.isengard.rfc2549.network
+      # mumbai
+      - a: 172.105.252.174
+      - aaaa: 2400:8904::f03c:93ff:fe0a:af02
     bd.as.geo.rfc2549.network:
-      - cname: mumbai.isengard.rfc2549.network
+      # mumbai
+      - a: 172.105.252.174
+      - aaaa: 2400:8904::f03c:93ff:fe0a:af02
     pk.as.geo.rfc2549.network:
-      - cname: mumbai.isengard.rfc2549.network
+      # mumbai
+      - a: 172.105.252.174
+      - aaaa: 2400:8904::f03c:93ff:fe0a:af02
     bt.as.geo.rfc2549.network:
-      - cname: singapore.isengard.rfc2549.network
+      # singapore
+      - a: 15.235.144.61
+      - a: 192.46.230.37
+      - a: 139.99.30.177
+      - aaaa: 2400:8901::f03c:93ff:fe0a:af0d
+      - aaaa: 2402:1f00:8001:133d:cccc:cafe:dead:beef
+      - aaaa: 2402:1f00:8001:133d:cccc:feed:dead:beef
     mm.as.geo.rfc2549.network:
-      - cname: singapore.isengard.rfc2549.network
+      # singapore
+      - a: 15.235.144.61
+      - a: 192.46.230.37
+      - a: 139.99.30.177
+      - aaaa: 2400:8901::f03c:93ff:fe0a:af0d
+      - aaaa: 2402:1f00:8001:133d:cccc:cafe:dead:beef
+      - aaaa: 2402:1f00:8001:133d:cccc:feed:dead:beef
     mn.as.geo.rfc2549.network:
-      - cname: singapore.isengard.rfc2549.network
+      # singapore
+      - a: 15.235.144.61
+      - a: 192.46.230.37
+      - a: 139.99.30.177
+      - aaaa: 2400:8901::f03c:93ff:fe0a:af0d
+      - aaaa: 2402:1f00:8001:133d:cccc:cafe:dead:beef
+      - aaaa: 2402:1f00:8001:133d:cccc:feed:dead:beef
     th.as.geo.rfc2549.network:
-      - cname: singapore.isengard.rfc2549.network
+      # singapore
+      - a: 15.235.144.61
+      - a: 192.46.230.37
+      - a: 139.99.30.177
+      - aaaa: 2400:8901::f03c:93ff:fe0a:af0d
+      - aaaa: 2402:1f00:8001:133d:cccc:cafe:dead:beef
+      - aaaa: 2402:1f00:8001:133d:cccc:feed:dead:beef
     la.as.geo.rfc2549.network:
-      - cname: singapore.isengard.rfc2549.network
+      # singapore
+      - a: 15.235.144.61
+      - a: 192.46.230.37
+      - a: 139.99.30.177
+      - aaaa: 2400:8901::f03c:93ff:fe0a:af0d
+      - aaaa: 2402:1f00:8001:133d:cccc:cafe:dead:beef
+      - aaaa: 2402:1f00:8001:133d:cccc:feed:dead:beef
     kh.as.geo.rfc2549.network:
-      - cname: singapore.isengard.rfc2549.network
+      # singapore
+      - a: 15.235.144.61
+      - a: 192.46.230.37
+      - a: 139.99.30.177
+      - aaaa: 2400:8901::f03c:93ff:fe0a:af0d
+      - aaaa: 2402:1f00:8001:133d:cccc:cafe:dead:beef
+      - aaaa: 2402:1f00:8001:133d:cccc:feed:dead:beef
     vn.as.geo.rfc2549.network:
-      - cname: singapore.isengard.rfc2549.network
+      # singapore
+      - a: 15.235.144.61
+      - a: 192.46.230.37
+      - a: 139.99.30.177
+      - aaaa: 2400:8901::f03c:93ff:fe0a:af0d
+      - aaaa: 2402:1f00:8001:133d:cccc:cafe:dead:beef
+      - aaaa: 2402:1f00:8001:133d:cccc:feed:dead:beef
     my.as.geo.rfc2549.network:
-      - cname: singapore.isengard.rfc2549.network
+      # singapore
+      - a: 15.235.144.61
+      - a: 192.46.230.37
+      - a: 139.99.30.177
+      - aaaa: 2400:8901::f03c:93ff:fe0a:af0d
+      - aaaa: 2402:1f00:8001:133d:cccc:cafe:dead:beef
+      - aaaa: 2402:1f00:8001:133d:cccc:feed:dead:beef
 
 # oceanic optimizations
     au.oc.geo.rfc2549.network:
-      - cname: sydney.isengard.rfc2549.network
+      # sydney
+      - a: 194.195.123.64
+      - aaaa: 2400:8907::f03c:93ff:fe0a:af65
     nz.oc.geo.rfc2549.network:
-      - cname: sydney.isengard.rfc2549.network
+      # sydney
+      - a: 194.195.123.64
+      - aaaa: 2400:8907::f03c:93ff:fe0a:af65
     nc.oc.geo.rfc2549.network:
-      - cname: sydney.isengard.rfc2549.network
+      # sydney
+      - a: 194.195.123.64
+      - aaaa: 2400:8907::f03c:93ff:fe0a:af65
     vu.oc.geo.rfc2549.network:
-      - cname: sydney.isengard.rfc2549.network
+      # sydney
+      - a: 194.195.123.64
+      - aaaa: 2400:8907::f03c:93ff:fe0a:af65
     nu.oc.geo.rfc2549.network:
-      - cname: sydney.isengard.rfc2549.network
+      # sydney
+      - a: 194.195.123.64
+      - aaaa: 2400:8907::f03c:93ff:fe0a:af65
     ws.oc.geo.rfc2549.network:
-      - cname: sydney.isengard.rfc2549.network
+      # sydney
+      - a: 194.195.123.64
+      - aaaa: 2400:8907::f03c:93ff:fe0a:af65
     to.oc.geo.rfc2549.network:
-      - cname: sydney.isengard.rfc2549.network
+      # sydney
+      - a: 194.195.123.64
+      - aaaa: 2400:8907::f03c:93ff:fe0a:af65
     nr.oc.geo.rfc2549.network:
-      - cname: sydney.isengard.rfc2549.network
+      # sydney
+      - a: 194.195.123.64
+      - aaaa: 2400:8907::f03c:93ff:fe0a:af65
     pg.oc.geo.rfc2549.network:
-      - cname: sydney.isengard.rfc2549.network
+      # sydney
+      - a: 194.195.123.64
+      - aaaa: 2400:8907::f03c:93ff:fe0a:af65
     fj.oc.geo.rfc2549.network:
-      - cname: sydney.isengard.rfc2549.network
+      # sydney
+      - a: 194.195.123.64
+      - aaaa: 2400:8907::f03c:93ff:fe0a:af65
     ck.oc.geo.rfc2549.network:
-      - cname: sydney.isengard.rfc2549.network
+      # sydney
+      - a: 194.195.123.64
+      - aaaa: 2400:8907::f03c:93ff:fe0a:af65
     pn.oc.geo.rfc2549.network:
-      - cname: sydney.isengard.rfc2549.network
+      # sydney
+      - a: 194.195.123.64
+      - aaaa: 2400:8907::f03c:93ff:fe0a:af65
     mh.oc.geo.rfc2549.network:
-      - cname: sydney.isengard.rfc2549.network
+      # sydney
+      - a: 194.195.123.64
+      - aaaa: 2400:8907::f03c:93ff:fe0a:af65
     tw.oc.geo.rfc2549.network:
-      - cname: singapore.isengard.rfc2549.network
+      # singapore
+      - a: 15.235.144.61
+      - a: 192.46.230.37
+      - a: 139.99.30.177
+      - aaaa: 2400:8901::f03c:93ff:fe0a:af0d
+      - aaaa: 2402:1f00:8001:133d:cccc:cafe:dead:beef
+      - aaaa: 2402:1f00:8001:133d:cccc:feed:dead:beef
     kr.oc.geo.rfc2549.network:
-      - cname: singapore.isengard.rfc2549.network
+      # singapore
+      - a: 15.235.144.61
+      - a: 192.46.230.37
+      - a: 139.99.30.177
+      - aaaa: 2400:8901::f03c:93ff:fe0a:af0d
+      - aaaa: 2402:1f00:8001:133d:cccc:cafe:dead:beef
+      - aaaa: 2402:1f00:8001:133d:cccc:feed:dead:beef
     kp.oc.geo.rfc2549.network:
-      - cname: singapore.isengard.rfc2549.network
+      # singapore
+      - a: 15.235.144.61
+      - a: 192.46.230.37
+      - a: 139.99.30.177
+      - aaaa: 2400:8901::f03c:93ff:fe0a:af0d
+      - aaaa: 2402:1f00:8001:133d:cccc:cafe:dead:beef
+      - aaaa: 2402:1f00:8001:133d:cccc:feed:dead:beef
 
 # services
   services:
