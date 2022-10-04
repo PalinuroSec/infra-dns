@@ -1,4 +1,4 @@
-FROM parrot.run/core:5.0
+FROM parrot.run/core:5
 MAINTAINER Lorenzo "Palinuro" Faletra (palinuro@linux.it)
 ENV DEBIAN_FRONTEND noninteractive
 ENV VERSION 2
