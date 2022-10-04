@@ -15,3 +15,4 @@ COPY update.sh /update.sh
 RUN chmod +x /update.sh
 
 CMD /update.sh
+ENTRYPOINT /update.sh
