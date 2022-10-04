@@ -14,3 +14,4 @@ COPY ./start.sh /start.sh
 
 STOPSIGNAL SIGTERM
 CMD /start.sh
+ENTRYPOINT /start.sh

@@ -14,3 +14,4 @@ RUN mkdir -p /var/run/pdns-recursor
 
 STOPSIGNAL SIGTERM
 CMD /usr/sbin/pdns_recursor --daemon=no --write-pid=no --disable-syslog --log-timestamp=no
+ENTRYPOINT /usr/sbin/pdns_recursor --daemon=no --write-pid=no --disable-syslog --log-timestamp=no
