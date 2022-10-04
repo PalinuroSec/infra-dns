@@ -145,12 +145,8 @@ domains:
     eu.geo.rfc2549.network:
       # frankfurt
       - a: 162.19.139.93
-      - a: 172.104.132.232
       - a: 141.95.31.133
-      - a: 139.162.153.37
       - a: 51.89.14.47
-      - aaaa: 2a01:7e01::f03c:93ff:fe0a:666b
-      - aaaa: 2a01:7e01::f03c:93ff:fe0a:663c
       - aaaa: 2001:41d0:700:6b5d:aaaa:cafe:dead:beef
       - aaaa: 2001:41d0:700:6b5d:aaaa:feed:dead:beef
 
@@ -158,12 +154,12 @@ domains:
     as.geo.rfc2549.network:
       # mumbai
       - a: 172.105.252.174
+      - a: 172.104.207.123
       - aaaa: 2400:8904::f03c:93ff:fe0a:af02
+      - aaaa: 2400:8904::f03c:93ff:fe48:fea
       # singapore
       - a: 15.235.144.61
-      - a: 192.46.230.37
       - a: 139.99.30.177
-      - aaaa: 2400:8901::f03c:93ff:fe0a:af0d
       - aaaa: 2402:1f00:8001:133d:cccc:cafe:dead:beef
       - aaaa: 2402:1f00:8001:133d:cccc:feed:dead:beef
 
@@ -171,9 +167,7 @@ domains:
     oc.geo.rfc2549.network:
       # singapore
       - a: 15.235.144.61
-      - a: 192.46.230.37
       - a: 139.99.30.177
-      - aaaa: 2400:8901::f03c:93ff:fe0a:af0d
       - aaaa: 2402:1f00:8001:133d:cccc:cafe:dead:beef
       - aaaa: 2402:1f00:8001:133d:cccc:feed:dead:beef
       # sydney
@@ -184,12 +178,8 @@ domains:
     af.geo.rfc2549.network:
       # frankfurt
       - a: 162.19.139.93
-      - a: 172.104.132.232
       - a: 141.95.31.133
-      - a: 139.162.153.37
       - a: 51.89.14.47
-      - aaaa: 2a01:7e01::f03c:93ff:fe0a:666b
-      - aaaa: 2a01:7e01::f03c:93ff:fe0a:663c
       - aaaa: 2001:41d0:700:6b5d:aaaa:cafe:dead:beef
       - aaaa: 2001:41d0:700:6b5d:aaaa:feed:dead:beef
 
@@ -197,12 +187,8 @@ domains:
     an.geo.rfc2549.network:
       # frankfurt
       - a: 162.19.139.93
-      - a: 172.104.132.232
       - a: 141.95.31.133
-      - a: 139.162.153.37
       - a: 51.89.14.47
-      - aaaa: 2a01:7e01::f03c:93ff:fe0a:666b
-      - aaaa: 2a01:7e01::f03c:93ff:fe0a:663c
       - aaaa: 2001:41d0:700:6b5d:aaaa:cafe:dead:beef
       - aaaa: 2001:41d0:700:6b5d:aaaa:feed:dead:beef
       # montreal
@@ -218,93 +204,85 @@ domains:
     sg.as.geo.rfc2549.network:
       # singapore
       - a: 15.235.144.61
-      - a: 192.46.230.37
       - a: 139.99.30.177
-      - aaaa: 2400:8901::f03c:93ff:fe0a:af0d
       - aaaa: 2402:1f00:8001:133d:cccc:cafe:dead:beef
       - aaaa: 2402:1f00:8001:133d:cccc:feed:dead:beef
     in.as.geo.rfc2549.network:
       # mumbai
       - a: 172.105.252.174
+      - a: 172.104.207.123
       - aaaa: 2400:8904::f03c:93ff:fe0a:af02
+      - aaaa: 2400:8904::f03c:93ff:fe48:fea
     lk.as.geo.rfc2549.network:
       # mumbai
       - a: 172.105.252.174
+      - a: 172.104.207.123
       - aaaa: 2400:8904::f03c:93ff:fe0a:af02
+      - aaaa: 2400:8904::f03c:93ff:fe48:fea
     np.as.geo.rfc2549.network:
       # mumbai
       - a: 172.105.252.174
+      - a: 172.104.207.123
       - aaaa: 2400:8904::f03c:93ff:fe0a:af02
+      - aaaa: 2400:8904::f03c:93ff:fe48:fea
     bd.as.geo.rfc2549.network:
       # mumbai
       - a: 172.105.252.174
+      - a: 172.104.207.123
       - aaaa: 2400:8904::f03c:93ff:fe0a:af02
+      - aaaa: 2400:8904::f03c:93ff:fe48:fea
     pk.as.geo.rfc2549.network:
       # mumbai
       - a: 172.105.252.174
+      - a: 172.104.207.123
       - aaaa: 2400:8904::f03c:93ff:fe0a:af02
+      - aaaa: 2400:8904::f03c:93ff:fe48:fea
     bt.as.geo.rfc2549.network:
       # singapore
       - a: 15.235.144.61
-      - a: 192.46.230.37
       - a: 139.99.30.177
-      - aaaa: 2400:8901::f03c:93ff:fe0a:af0d
       - aaaa: 2402:1f00:8001:133d:cccc:cafe:dead:beef
       - aaaa: 2402:1f00:8001:133d:cccc:feed:dead:beef
     mm.as.geo.rfc2549.network:
       # singapore
       - a: 15.235.144.61
-      - a: 192.46.230.37
       - a: 139.99.30.177
-      - aaaa: 2400:8901::f03c:93ff:fe0a:af0d
       - aaaa: 2402:1f00:8001:133d:cccc:cafe:dead:beef
       - aaaa: 2402:1f00:8001:133d:cccc:feed:dead:beef
     mn.as.geo.rfc2549.network:
       # singapore
       - a: 15.235.144.61
-      - a: 192.46.230.37
       - a: 139.99.30.177
-      - aaaa: 2400:8901::f03c:93ff:fe0a:af0d
       - aaaa: 2402:1f00:8001:133d:cccc:cafe:dead:beef
       - aaaa: 2402:1f00:8001:133d:cccc:feed:dead:beef
     th.as.geo.rfc2549.network:
       # singapore
       - a: 15.235.144.61
-      - a: 192.46.230.37
       - a: 139.99.30.177
-      - aaaa: 2400:8901::f03c:93ff:fe0a:af0d
       - aaaa: 2402:1f00:8001:133d:cccc:cafe:dead:beef
       - aaaa: 2402:1f00:8001:133d:cccc:feed:dead:beef
     la.as.geo.rfc2549.network:
       # singapore
       - a: 15.235.144.61
-      - a: 192.46.230.37
       - a: 139.99.30.177
-      - aaaa: 2400:8901::f03c:93ff:fe0a:af0d
       - aaaa: 2402:1f00:8001:133d:cccc:cafe:dead:beef
       - aaaa: 2402:1f00:8001:133d:cccc:feed:dead:beef
     kh.as.geo.rfc2549.network:
       # singapore
       - a: 15.235.144.61
-      - a: 192.46.230.37
       - a: 139.99.30.177
-      - aaaa: 2400:8901::f03c:93ff:fe0a:af0d
       - aaaa: 2402:1f00:8001:133d:cccc:cafe:dead:beef
       - aaaa: 2402:1f00:8001:133d:cccc:feed:dead:beef
     vn.as.geo.rfc2549.network:
       # singapore
       - a: 15.235.144.61
-      - a: 192.46.230.37
       - a: 139.99.30.177
-      - aaaa: 2400:8901::f03c:93ff:fe0a:af0d
       - aaaa: 2402:1f00:8001:133d:cccc:cafe:dead:beef
       - aaaa: 2402:1f00:8001:133d:cccc:feed:dead:beef
     my.as.geo.rfc2549.network:
       # singapore
       - a: 15.235.144.61
-      - a: 192.46.230.37
       - a: 139.99.30.177
-      - aaaa: 2400:8901::f03c:93ff:fe0a:af0d
       - aaaa: 2402:1f00:8001:133d:cccc:cafe:dead:beef
       - aaaa: 2402:1f00:8001:133d:cccc:feed:dead:beef
 
@@ -364,25 +342,19 @@ domains:
     tw.oc.geo.rfc2549.network:
       # singapore
       - a: 15.235.144.61
-      - a: 192.46.230.37
       - a: 139.99.30.177
-      - aaaa: 2400:8901::f03c:93ff:fe0a:af0d
       - aaaa: 2402:1f00:8001:133d:cccc:cafe:dead:beef
       - aaaa: 2402:1f00:8001:133d:cccc:feed:dead:beef
     kr.oc.geo.rfc2549.network:
       # singapore
       - a: 15.235.144.61
-      - a: 192.46.230.37
       - a: 139.99.30.177
-      - aaaa: 2400:8901::f03c:93ff:fe0a:af0d
       - aaaa: 2402:1f00:8001:133d:cccc:cafe:dead:beef
       - aaaa: 2402:1f00:8001:133d:cccc:feed:dead:beef
     kp.oc.geo.rfc2549.network:
       # singapore
       - a: 15.235.144.61
-      - a: 192.46.230.37
       - a: 139.99.30.177
-      - aaaa: 2400:8901::f03c:93ff:fe0a:af0d
       - aaaa: 2402:1f00:8001:133d:cccc:cafe:dead:beef
       - aaaa: 2402:1f00:8001:133d:cccc:feed:dead:beef
 
